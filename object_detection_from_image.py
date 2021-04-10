@@ -3,7 +3,7 @@ import cv2
 #read the NetFromcaffe 
 cvNet = cv2.dnn.readNetFromCaffe('MobileNetSSD_deploy.prototxt.txt','MobileNetSSD_deploy.caffemodel')
 #print(cvNet)
-image_path = 'images/example_01.jpg'
+image_path = 'example_05.jpg'
 intial_confidence=0.25
 # Input image
 image = cv2.imread(image_path)
